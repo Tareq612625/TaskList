@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Task Management</title>
+</head>
+<body>
+  <div class="container">
+      <h4>Task List</h4>
+      <form id="task_form">
+          <input type="text" id="new_task" placeholder="Enter the Task Name">
+          <!-- <input type="submit" value="Add Task" id=""> -->
+          <button type="submit">Add Task</button>
+      </form>
+      <hr>
+      <h4>Tasks</h4>
+      <input type="text" id="task_filter" placeholder="task filter">
+      <ul id="task">
+
+      </ul>
+      <button id="clear_task_btn">Clear Task</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
